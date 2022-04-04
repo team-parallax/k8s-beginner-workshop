@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: k8s-workshop
+spec:
+  containers:
+    - name: k8s-workshop
+      image: teamparallax/parallax-beginner-k8s-workshop:1.0.0
+      ports:
+        - containerPort: 3333

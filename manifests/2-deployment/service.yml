@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: k8s-workshop-svc
+  labels:
+    app: k8s-workshop-svc
+spec:
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: 3333
+      protocol: TCP
+      name: http
+  selector:
+    app: k8s-workshop

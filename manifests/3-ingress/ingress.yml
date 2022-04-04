@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: k8s-workshop
+  labels:
+    app: k8s-workshop
+spec:
+  tls: []
+  rules:
+    - host: foo.workshop.team-parallax.com
+      http:
+        paths:
+          - path: "/"
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: k8s-workshop-svc
+                port:
+                  name: http

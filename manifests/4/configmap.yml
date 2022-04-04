@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config
+data:
+  TRAINEE: Marcel
+  SQLLITE_FILEPATH: /data/sqllite.db
