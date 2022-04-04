@@ -1,0 +1,11 @@
+apiVersion: v1
+appVersion: 2.0.1
+description: Workshop Chart for Kubernetes
+home: https://github.com/Ealenn/Echo-Server
+keywords:
+- team parallax
+- workshop
+maintainers:
+- name: Marcel Michelfelder
+name: workshop-chart
+version: 1.0.0

@@ -24,7 +24,7 @@ const initSqlLite = async () => {
 }
 app.get('/', async (req, res) => {
 	await db.exec('UPDATE app SET counter = counter + 1')
-	const{counter} = await db.get('SELECT * FROM app')
+	const {counter} = await db.get('SELECT * FROM app')
 	const contact = process.env.TRAINEE ?? "World"
 	res.send(`Hello ${contact} from ${os.hostname()} - you've been here ${counter} times`)
 })

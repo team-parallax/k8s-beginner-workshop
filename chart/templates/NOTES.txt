@@ -1,0 +1,1 @@
+Your application will be accessible here: {{ printf "https://%s.%s.%s" $.Release.Name $.Release.Namespace "workshop.team-parallax.com" | quote }}
