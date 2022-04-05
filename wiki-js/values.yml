@@ -2,7 +2,6 @@ postgresql:
   persistence:
     size: 2Gi
 
-
 ingress:
   enabled: true
   annotations:
