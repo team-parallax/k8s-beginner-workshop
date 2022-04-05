@@ -1,3 +1,8 @@
+# Parallax Kubernetes Workshop
+https://present.team-parallax.com/kubernetes-beginner#/
+
+## Useful commands
+
 ### Default kubernetes editor
 `export KUBE_EDITOR="nano"`
 
