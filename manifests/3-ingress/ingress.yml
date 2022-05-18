@@ -9,7 +9,7 @@ metadata:
 spec:
   tls: []
   rules:
-    - host: foo.workshop.team-parallax.com
+    - host: marcel.workshop.team-parallax.com
       http:
         paths:
           - path: "/"
